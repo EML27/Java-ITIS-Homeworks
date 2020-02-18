@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_201" class="java.beans.XMLDecoder">
+ <object class="com.company.task1.MyTree">
+  <void property="startNode">
+   <object class="com.company.task1.Node">
+    <void property="children">
+     <object class="java.util.ArrayList">
+      <void method="add">
+       <object class="com.company.task1.Node" id="Node0">
+        <void property="children">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object class="com.company.task1.Node" id="Node1">
+            <void property="children">
+             <object class="java.util.ArrayList">
+              <void method="add">
+               <object class="com.company.task1.Node" id="Node2">
+                <void property="children">
+                 <object class="java.util.ArrayList">
+                  <void method="add">
+                   <object class="com.company.task1.Node" id="Node3">
+                    <void property="children">
+                     <object class="java.util.ArrayList"/>
+                    </void>
+                    <void property="myType">
+                     <object class="java.lang.Enum" id="NodeI$Type0" method="valueOf">
+                      <class>com.company.task1.NodeI$Type</class>
+                      <string>HOUSE</string>
+                     </object>
+                    </void>
+                    <void property="name">
+                     <string>Baumana 1</string>
+                    </void>
+                    <void property="parent">
+                     <object idref="Node3"/>
+                    </void>
+                   </object>
+                  </void>
+                  <void method="add">
+                   <object class="com.company.task1.Node" id="Node4">
+                    <void property="children">
+                     <object class="java.util.ArrayList"/>
+                    </void>
+                    <void property="myType">
+                     <object idref="NodeI$Type0"/>
+                    </void>
+                    <void property="name">
+                     <string>Baumana 2</string>
+                    </void>
+                    <void property="parent">
+                     <object idref="Node4"/>
+                    </void>
+                   </object>
+                  </void>
+                 </object>
+                </void>
+                <void property="myType">
+                 <object class="java.lang.Enum" method="valueOf">
+                  <class>com.company.task1.NodeI$Type</class>
+                  <string>STREET</string>
+                 </object>
+                </void>
+                <void property="name">
+                 <string>Baumana</string>
+                </void>
+                <void property="parent">
+                 <object idref="Node2"/>
+                </void>
+                <void property="priority">
+                 <int>3</int>
+                </void>
+               </object>
+              </void>
+             </object>
+            </void>
+            <void property="myType">
+             <object class="java.lang.Enum" id="NodeI$Type1" method="valueOf">
+              <class>com.company.task1.NodeI$Type</class>
+              <string>CITY</string>
+             </object>
+            </void>
+            <void property="name">
+             <string>Kazan</string>
+            </void>
+            <void property="parent">
+             <object idref="Node1"/>
+            </void>
+            <void property="priority">
+             <int>3</int>
+            </void>
+           </object>
+          </void>
+          <void method="add">
+           <object class="com.company.task1.Node" id="Node5">
+            <void property="children">
+             <object class="java.util.ArrayList">
+              <void method="add">
+               <object class="com.company.task1.Node" id="Node6">
+                <void property="children">
+                 <object class="java.util.ArrayList"/>
+                </void>
+                <void property="myType">
+                 <object idref="NodeI$Type1"/>
+                </void>
+                <void property="name">
+                 <string>Elabuga</string>
+                </void>
+                <void property="parent">
+                 <object idref="Node6"/>
+                </void>
+                <void property="priority">
+                 <int>1</int>
+                </void>
+               </object>
+              </void>
+             </object>
+            </void>
+            <void property="myType">
+             <object class="java.lang.Enum" method="valueOf">
+              <class>com.company.task1.NodeI$Type</class>
+              <string>SUBREGION</string>
+             </object>
+            </void>
+            <void property="name">
+             <string>Elabuzhsky region</string>
+            </void>
+            <void property="parent">
+             <object idref="Node5"/>
+            </void>
+            <void property="priority">
+             <int>2</int>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void property="myType">
+         <object class="java.lang.Enum" id="NodeI$Type2" method="valueOf">
+          <class>com.company.task1.NodeI$Type</class>
+          <string>REGION</string>
+         </object>
+        </void>
+        <void property="name">
+         <string>Tatarstan</string>
+        </void>
+        <void property="parent">
+         <object idref="Node0"/>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="com.company.task1.Node" id="Node7">
+        <void property="children">
+         <object class="java.util.ArrayList">
+          <void method="add">
+           <object class="com.company.task1.Node" id="Node8">
+            <void property="children">
+             <object class="java.util.ArrayList"/>
+            </void>
+            <void property="myType">
+             <object idref="NodeI$Type1"/>
+            </void>
+            <void property="name">
+             <string>Ulyanovsk</string>
+            </void>
+            <void property="parent">
+             <object idref="Node8"/>
+            </void>
+            <void property="priority">
+             <int>2</int>
+            </void>
+           </object>
+          </void>
+          <void method="add">
+           <object class="com.company.task1.Node" id="Node9">
+            <void property="children">
+             <object class="java.util.ArrayList"/>
+            </void>
+            <void property="myType">
+             <object idref="NodeI$Type1"/>
+            </void>
+            <void property="name">
+             <string>Dimitrovgrad</string>
+            </void>
+            <void property="parent">
+             <object idref="Node9"/>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+        <void property="myType">
+         <object idref="NodeI$Type2"/>
+        </void>
+        <void property="name">
+         <string>Ulyanovsk oblast</string>
+        </void>
+        <void property="parent">
+         <object idref="Node7"/>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="myType">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.company.task1.NodeI$Type</class>
+      <string>COUNTRY</string>
+     </object>
+    </void>
+    <void property="name">
+     <string>Russia</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
